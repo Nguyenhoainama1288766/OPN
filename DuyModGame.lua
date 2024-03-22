@@ -178,20 +178,20 @@ local Window = Fluent:CreateWindow({
     TabWidth = 160,
     Size = UDim2.fromOffset(530, 350),
     Acrylic = true,
-    Theme = "Dark",
+    Theme = "Darker",
     MinimizeKey = Enum.KeyCode.End
 })
 local Tabs = {
-    Main = Window:AddTab({ Title = "Tab Main", Icon = "home" }),
-    Stats = Window:AddTab({ Title = "Tab Stats", Icon = "plus-circle" }),
-    Player = Window:AddTab({ Title = "Tab Player", Icon = "box" }),
-    Teleport = Window:AddTab({ Title = "Tab Teleport", Icon = "palmtree" }),
-    Fruit = Window:AddTab({ Title = "Tab Fruits", Icon = "cherry" }),
-    Raid = Window:AddTab({ Title = "Tab Raid", Icon = "swords" }),
-    Race = Window:AddTab({ Title = "Tab Race V4", Icon = "chevrons-right" }),
-    Shop = Window:AddTab({ Title = "Tab Shop", Icon = "shopping-cart" }),
-	Misc = Window:AddTab({ Title = "Tab Msic", Icon = "list-plus" }),
-    Setting = Window:AddTab({ Title = "Tab Setting", Icon = "settings" }),
+    Main = Window:AddTab({ Title = "Tab Main", Icon = "" }),
+    Stats = Window:AddTab({ Title = "Tab Stats", Icon = "" }),
+    Player = Window:AddTab({ Title = "Tab Player", Icon = "" }),
+    Teleport = Window:AddTab({ Title = "Tab Teleport", Icon = "" }),
+    Fruit = Window:AddTab({ Title = "Tab Fruits", Icon = "" }),
+    Raid = Window:AddTab({ Title = "Tab Raid", Icon = "" }),
+    Race = Window:AddTab({ Title = "Tab Race V4", Icon = "" }),
+    Shop = Window:AddTab({ Title = "Tab Shop", Icon = "" }),
+    Misc = Window:AddTab({ Title = "Tab Msic", Icon = "" }),
+    Setting = Window:AddTab({ Title = "Tab Setting", Icon = "" }),
 }
 local Options = Fluent.Options
 do
